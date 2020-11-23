@@ -123,14 +123,14 @@ for(var i=0;i< squares.length; i++){
 			//alert(pickedColor);
 			if(clickedColor === pickedColor){
 				//alert("Correct");	
-				messageDisplay.textContent = "Correct";
-				resetButton.textContent = "Play Again?";
+				messageDisplay.textContent = "CORRECT";
+				resetButton.textContent = "PLAY AGAIN?";
 				changeColors(clickedColor);
 				h1.style.backgroundColor = clickedColor;
 			}else{
 				//alert("Wrong!!!");
 				this.style.backgroundColor = "#232323" ;
-				messageDisplay.textContent = "Try Again";
+				messageDisplay.textContent = "TRY AGAIN!!";
 			}
 		
 		
