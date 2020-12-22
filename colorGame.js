@@ -36,7 +36,7 @@ function reset(){
 	//change display color to math picked color
 	colorDisplay.textContent = pickedColor;
 	
-	resetButton.textContent = "New Colors";
+	resetButton.textContent = "New Bright Colors";
 	messageDisplay.textContent = "";
 	//change colors of squares
 	for(var i=0;i< squares.length; i++){
